@@ -1,0 +1,26 @@
+.site-list {
+  @include list-reset();
+  font-size: 30px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.site-list__item {
+  margin-top: 1.5%;
+}
+
+/*.site-list:first-child {
+  margin-top: 0;
+}*/
+
+.site-list__anchor {
+  color: $dark-blue-grey;
+  text-decoration: none;
+
+  &:hover {
+    color: $light-gold;
+  }
+}

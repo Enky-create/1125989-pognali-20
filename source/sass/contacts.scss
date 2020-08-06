@@ -1,0 +1,20 @@
+.contact {
+  display: block;
+  position: relative;
+
+  &--phone::before {
+    @include contact-icon ();
+    background-image: url("img/contacts-phone.svg");
+    background-size: 40% 40%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  &--mail::before {
+    @include contact-icon ();
+    background-image: url("img/contacts-mail.svg");
+    background-size: 40% 40%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
