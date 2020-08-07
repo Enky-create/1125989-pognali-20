@@ -1,9 +1,9 @@
-@mixin list-reset () {
+@mixin list-reset{
   list-style: none;
   padding: 0;
 }
 
-@mixin button-reset () {
+@mixin button-reset{
   padding: 0;
   border: none;
   font: inherit;
@@ -12,7 +12,7 @@
   cursor: pointer;
 }
 
-@mixin contact-icon () {
+@mixin contact-icon{
   content: "";
   position: absolute;
   top: 0;
